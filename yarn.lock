@@ -2285,7 +2285,7 @@ datatables.net-bs4@^1.10.15, datatables.net-bs4@^1.10.23:
     datatables.net "1.10.24"
     jquery ">=1.7"
 
-datatables.net-buttons-bs4@^1.6.5:
+datatables.net-buttons-bs4@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/datatables.net-buttons-bs4/-/datatables.net-buttons-bs4-1.7.0.tgz#20fc7b80a14f80fb81272dd601f8ae683a4595fb"
   integrity sha512-ZqZOB3nwXiV8vIjVLATUMUvp13eOC46cR9C/Ib1MZtxXMck8HKrspPZZ00BJrS/lLAvMCj0M7qbzug7AJuGznQ==
