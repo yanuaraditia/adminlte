@@ -14,8 +14,10 @@ $orange: #ff851b !default;
 $fuchsia: #f012be !default;
 $purple: #605ca8 !default;
 $maroon: #d81b60 !default;
-$black: #111 !default;
+$black: #111827 !default;
 $gray-x-light: #d2d6de !default;
+
+$font-family-sans-serif: "Inter", -apple-system, sans-serif;
 
 $colors: map-merge(
   (
@@ -148,8 +150,8 @@ $control-sidebar-width: $sidebar-width !default;
 // --------------------------------------------------------
 $card-border-color: $gray-100 !default;
 $card-dark-border-color: lighten($gray-900, 10%) !default;
-$card-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2) !default;
-$card-title-font-size: 1.1rem !default;
+$card-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1),0 4px 6px -2px rgba($color: #0000, $alpha: .05) !default;
+$card-title-font-size: 1rem !default;
 $card-title-font-size-sm: 1rem !default;
 $card-title-font-weight: $font-weight-normal !default;
 $card-nav-link-padding-sm-y: .4rem !default;

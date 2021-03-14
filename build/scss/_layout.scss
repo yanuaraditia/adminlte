@@ -11,7 +11,20 @@ body,
 .wrapper {
   min-height: 100%;
 }
-
+body .content *::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  -webkit-transition: .3s background;
+  transition: .3s background; }
+body .content *::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #a0a6ae; }
+body .content *::-webkit-scrollbar-track {
+  background: #e7eaef; }
+body .content *::-webkit-scrollbar-corner {
+  background: transparent; }
+body .content *:hover::-webkit-scrollbar-thumb {
+  background: #a0a6ae; }
 .wrapper {
   position: relative;
 

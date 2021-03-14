@@ -1,7 +1,9 @@
 //
 // Component: Pagination
 //
-
+.page-link {
+  border-radius: $border-radius;
+}
 .pagination-month {
   .page-item {
     justify-self: stretch;
