@@ -32458,6 +32458,10 @@ html.maximized-card {
   cursor: not-allowed;
 }
 
+.btn svg {
+  max-height: 18px;
+}
+
 .btn.btn-flat {
   border-radius: 0;
   border-width: 1px;

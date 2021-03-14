@@ -8,6 +8,10 @@
     cursor: not-allowed;
   }
 
+  svg {
+    max-height: 18px;
+  }
+
   // Flat buttons
   &.btn-flat {
     @include border-radius(0);
