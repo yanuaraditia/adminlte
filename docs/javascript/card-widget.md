@@ -64,7 +64,7 @@ This attribute, when attached to a button, allows the box to be removed when cli
       <div class="card-header">
         <h3 class="card-title">Removable Card Example</h3>
         <div class="card-tools">
-          <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+          <button type="button" class="btn btn-tool" data-card-widget="remove"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg></button>
         </div>
       </div>
       <div class="card-body">
@@ -79,7 +79,7 @@ This attribute, when attached to a button, allows the box to be removed when cli
     <h3 class="card-title">Removable Card Example</h3>
     <div class="card-tools">
       <!-- Remove Button -->
-      <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+      <button type="button" class="btn btn-tool" data-card-widget="remove"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg></button>
     </div>
     <!-- /.card-tools -->
   </div>

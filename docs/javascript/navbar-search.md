@@ -27,7 +27,7 @@ The jQuery API provides more customizable options that allows the developer to p
 Place this HTML Markup after inside the header.
 ```html
 <a data-widget="navbar-search" href="#" role="button">
-  <i class="fas fa-search"></i>
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
 </a>
 <div class="navbar-search-block">
   <form class="form-inline">
@@ -35,10 +35,10 @@ Place this HTML Markup after inside the header.
       <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
       <div class="input-group-append">
         <button class="btn btn-navbar" type="submit">
-          <i class="fas fa-search"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
         </button>
         <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-          <i class="fas fa-times"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
         </button>
       </div>
     </div>
@@ -50,7 +50,7 @@ Or you can place the search button inside the navbar as nav-item with this marku
 ```html
 <li class="nav-item">
   <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-    <i class="fas fa-search"></i>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
   </a>
   <div class="navbar-search-block">
     <form class="form-inline">
@@ -58,10 +58,10 @@ Or you can place the search button inside the navbar as nav-item with this marku
         <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
         <div class="input-group-append">
           <button class="btn btn-navbar" type="submit">
-            <i class="fas fa-search"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
           </button>
           <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-            <i class="fas fa-times"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
           </button>
         </div>
       </div>

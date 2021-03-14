@@ -21816,6 +21816,11 @@ body.text-sm .control-sidebar {
   color: #fff;
 }
 
+.nav-link svg.icon {
+  max-width: 18px;
+  max-height: 18px;
+}
+
 .page-link {
   border-radius: 4px;
 }
@@ -32458,8 +32463,14 @@ html.maximized-card {
   cursor: not-allowed;
 }
 
-.btn svg {
+.btn svg.icon {
+  max-width: 18px;
   max-height: 18px;
+}
+
+.btn-sm svg.icon, .btn-group-sm > .btn svg.icon {
+  max-width: 14px;
+  max-height: 14px;
 }
 
 .btn.btn-flat {

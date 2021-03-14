@@ -1038,10 +1038,9 @@
   var DATA_KEY$8 = 'lte.fullscreen';
   var JQUERY_NO_CONFLICT$8 = $__default['default'].fn[NAME$8];
   var SELECTOR_DATA_WIDGET$2 = '[data-widget="fullscreen"]';
-  var SELECTOR_ICON = SELECTOR_DATA_WIDGET$2 + " i";
   var Default$8 = {
-    minimizeIcon: 'fa-compress-arrows-alt',
-    maximizeIcon: 'fa-expand-arrows-alt'
+    minimizeIcon: '<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 9 9 9 9 5" /><line x1="3" y1="3" x2="9" y2="9" /><polyline points="5 15 9 15 9 19" /><line x1="3" y1="21" x2="9" y2="15" /><polyline points="19 9 15 9 15 5" /><line x1="15" y1="9" x2="21" y2="3" /><polyline points="19 15 15 15 15 19" /><line x1="15" y1="15" x2="21" y2="21" /></svg>',
+    maximizeIcon: '<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="16 4 20 4 20 8" /><line x1="14" y1="10" x2="20" y2="4" /><polyline points="8 20 4 20 4 16" /><line x1="4" y1="20" x2="10" y2="14" /><polyline points="16 20 20 20 20 16" /><line x1="14" y1="14" x2="20" y2="20" /><polyline points="8 4 4 4 4 8" /><line x1="4" y1="4" x2="10" y2="10" /></svg>'
   };
   /**
    * Class Definition
@@ -1074,7 +1073,7 @@
         document.documentElement.msRequestFullscreen();
       }
 
-      $__default['default'](SELECTOR_ICON).removeClass(this.options.maximizeIcon).addClass(this.options.minimizeIcon);
+      $__default['default'](SELECTOR_DATA_WIDGET$2).html(this.options.minimizeIcon);
     };
 
     _proto.windowed = function windowed() {
@@ -1086,7 +1085,7 @@
         document.msExitFullscreen();
       }
 
-      $__default['default'](SELECTOR_ICON).removeClass(this.options.minimizeIcon).addClass(this.options.maximizeIcon);
+      $__default['default'](SELECTOR_DATA_WIDGET$2).html(this.options.maximizeIcon);
     } // Static
     ;
 
@@ -1228,7 +1227,7 @@
         navId += "-" + Math.floor(Math.random() * 1000);
       }
 
-      var newNavItem = "<li class=\"nav-item\" role=\"presentation\"><a href=\"#\" class=\"btn-iframe-close\" data-widget=\"iframe-close\" data-type=\"only-this\"><i class=\"fas fa-times\"></i></a><a class=\"nav-link\" data-toggle=\"row\" id=\"" + navId + "\" href=\"#" + tabId + "\" role=\"tab\" aria-controls=\"" + tabId + "\" aria-selected=\"false\">" + title + "</a></li>";
+      var newNavItem = "<li class=\"nav-item\" role=\"presentation\"><a href=\"#\" class=\"btn-iframe-close\" data-widget=\"iframe-close\" data-type=\"only-this\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\" /><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\" /></svg></a><a class=\"nav-link\" data-toggle=\"row\" id=\"" + navId + "\" href=\"#" + tabId + "\" role=\"tab\" aria-controls=\"" + tabId + "\" aria-selected=\"false\">" + title + "</a></li>";
       $__default['default'](SELECTOR_TAB_NAVBAR_NAV).append(unescape(escape(newNavItem)));
       var newTabItem = "<div class=\"tab-pane fade\" id=\"" + tabId + "\" role=\"tabpanel\" aria-labelledby=\"" + navId + "\"><iframe src=\"" + link + "\"></iframe></div>";
       $__default['default'](SELECTOR_TAB_CONTENT).append(unescape(escape(newTabItem)));

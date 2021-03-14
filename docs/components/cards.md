@@ -525,7 +525,7 @@ AdminLTE data-card-widget attribute provides cards with the ability to collapse 
       <!-- This will cause the card to collapse when clicked -->
       <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
       <!-- This will cause the card to be removed when clicked -->
-      <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+      <button type="button" class="btn btn-tool" data-card-widget="remove"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg></button>
     </div>
     <!-- /.card-tools -->
   </div>

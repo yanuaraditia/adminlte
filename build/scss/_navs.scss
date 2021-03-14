@@ -166,3 +166,9 @@
     @include navbar-variant($color, $value);
   }
 }
+.nav-link {
+  svg.icon {
+    max-width: 18px;
+    max-height: 18px;
+  }
+}
