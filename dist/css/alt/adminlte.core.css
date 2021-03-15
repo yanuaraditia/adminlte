@@ -5076,7 +5076,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 0 solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 4px;
 }
 
@@ -5092,14 +5092,14 @@ input[type="button"].btn-block {
 
 .card > .list-group:first-child {
   border-top-width: 0;
-  border-top-left-radius: calc(4px - 0);
-  border-top-right-radius: calc(4px - 0);
+  border-top-left-radius: calc(4px - 1px);
+  border-top-right-radius: calc(4px - 1px);
 }
 
 .card > .list-group:last-child {
   border-bottom-width: 0;
-  border-bottom-right-radius: calc(4px - 0);
-  border-bottom-left-radius: calc(4px - 0);
+  border-bottom-right-radius: calc(4px - 1px);
+  border-bottom-left-radius: calc(4px - 1px);
 }
 
 .card > .card-header + .list-group,
@@ -5140,21 +5140,21 @@ input[type="button"].btn-block {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 0 solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-header:first-child {
-  border-radius: calc(4px - 0) calc(4px - 0) 0 0;
+  border-radius: calc(4px - 1px) calc(4px - 1px) 0 0;
 }
 
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 0 solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-footer:last-child {
-  border-radius: 0 0 calc(4px - 0) calc(4px - 0);
+  border-radius: 0 0 calc(4px - 1px) calc(4px - 1px);
 }
 
 .card-header-tabs {
@@ -5176,7 +5176,7 @@ input[type="button"].btn-block {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
-  border-radius: calc(4px - 0);
+  border-radius: calc(4px - 1px);
 }
 
 .card-img,
@@ -5190,14 +5190,14 @@ input[type="button"].btn-block {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(4px - 0);
-  border-top-right-radius: calc(4px - 0);
+  border-top-left-radius: calc(4px - 1px);
+  border-top-right-radius: calc(4px - 1px);
 }
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: calc(4px - 0);
-  border-bottom-left-radius: calc(4px - 0);
+  border-bottom-right-radius: calc(4px - 1px);
+  border-bottom-left-radius: calc(4px - 1px);
 }
 
 .card-deck .card {
@@ -5316,7 +5316,7 @@ input[type="button"].btn-block {
 
 .accordion > .card > .card-header {
   border-radius: 0;
-  margin-bottom: 0;
+  margin-bottom: -1px;
 }
 
 .breadcrumb {
@@ -11143,7 +11143,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f4f6f9;
+  background-color: #f4f6fa;
   height: 100vh;
   width: 100%;
   transition: height 200ms linear;
@@ -12361,7 +12361,7 @@ body.sidebar-collapse:not(.sidebar-mini-xs):not(.sidebar-mini-md):not(.sidebar-m
 }
 
 .content-wrapper {
-  background-color: #f4f6f9;
+  background-color: #f4f6fa;
 }
 
 .content-wrapper > .content {
